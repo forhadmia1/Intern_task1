@@ -8,15 +8,15 @@ const HeroArea = () => {
     return (
         <div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner hero-carosel" data-bs-interval="4000">
-                    <div class="carousel-item active">
-                        <img src={image1} class="d-block w-100" alt="..." />
+                <div class="carousel-inner">
+                    <div class="carousel-item active hero-carosel" data-bs-interval="4000">
+                        <img src={image1} class="" alt="..." />
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src={image2} class="d-block w-100" alt="..." />
+                    <div class="carousel-item hero-carosel" data-bs-interval="2000">
+                        <img src={image2} class="" alt="..." />
                     </div>
-                    <div class="carousel-item">
-                        <img src={image3} class="d-block w-100" alt="..." />
+                    <div class="carousel-item hero-carosel">
+                        <img src={image3} class="" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
