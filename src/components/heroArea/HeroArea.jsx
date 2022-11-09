@@ -8,11 +8,11 @@ const HeroArea = () => {
     return (
         <div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner hero-carosel">
+                <div class="carousel-inner hero-carosel" data-bs-interval="4000">
                     <div class="carousel-item active">
                         <img src={image1} class="d-block w-100" alt="..." />
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <img src={image2} class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
