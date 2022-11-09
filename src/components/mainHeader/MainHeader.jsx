@@ -5,7 +5,7 @@ import '../mainHeader/MainHeader.css'
 
 const MainHeader = () => {
     return (
-        <nav id='navbar' className='d-flex px-4 py-2 align-items-center'>
+        <nav id='navbar' className='d-flex px-4 py-2 align-items-center gap-2'>
             <div className='d-flex justify-content-center align-items-center left-side w-full h-100'>
                 <Link to={'/'}>
                     <img className='logo' src={logo} alt="" />

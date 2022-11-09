@@ -9,7 +9,7 @@
   flex-basis: 80%;
 }
 .logo {
-  width: 50%;
+  width: 40%;
 }
 
 .link {
@@ -32,7 +32,7 @@
     font-size: 14px;
   }
   .logo {
-    width: 80%;
+    width: 100%;
   }
   .left-side {
     flex-basis: 30%;
@@ -48,5 +48,14 @@
   }
   .right-side > ul > li {
     font-size: 16px;
+  }
+  .logo {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    width: 70%;
   }
 }
