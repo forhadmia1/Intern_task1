@@ -1,0 +1,22 @@
+#navbar {
+  background-color: rgb(141, 0, 0);
+}
+
+#navbar > .left-side {
+  flex-basis: 20%;
+}
+#navbar > .right-side {
+  flex-basis: 80%;
+}
+
+.link {
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.link:hover {
+  background-color: white;
+  color: rgb(141, 0, 0);
+}

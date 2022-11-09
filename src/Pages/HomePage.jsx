@@ -1,12 +1,14 @@
 import React from 'react';
-import MainHeader from '../components/MainHeader';
-import TopHeader from '../components/TopHeader';
+import HeroArea from '../components/heroArea/HeroArea';
+import MainHeader from '../components/mainHeader/MainHeader';
+import TopHeader from '../components/topHeader/TopHeader';
 
 const HomePage = () => {
     return (
         <>
             <TopHeader />
             <MainHeader />
+            <HeroArea />
         </>
     );
 };
