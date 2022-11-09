@@ -9,14 +9,47 @@ const HeroArea = () => {
         <div>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active hero-carosel" data-bs-interval="4000">
+                    <div class="carousel-item hero-carosel active" data-bs-interval="4000">
                         <img src={image1} class="" alt="..." />
+                        <div className='carousel-item-inner'>
+                            <div className='relative'>
+                                <div className='item-inner-info'>
+                                    <h1 className='text-center'>Welcome to Anjuli Automobiles Pvt. Ltd.</h1>
+                                    <p className='text-center fs-4'>
+                                        Quality is Remembered long,<br />
+                                        After the price is Forgotten !!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item hero-carosel" data-bs-interval="2000">
                         <img src={image2} class="" alt="..." />
+                        <div className='carousel-item-inner'>
+                            <div className='relative'>
+                                <div className='item-inner-info'>
+                                    <h1 className='text-center'>Welcome to Anjuli Automobiles Pvt. Ltd.</h1>
+                                    <p className='text-center fs-4'>
+                                        Quality is Remembered long,<br />
+                                        After the price is Forgotten !!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item hero-carosel">
+                    <div class="carousel-item hero-carosel" >
                         <img src={image3} class="" alt="..." />
+                        <div className='carousel-item-inner'>
+                            <div className='relative'>
+                                <div className='item-inner-info'>
+                                    <h1 className='text-center'>Welcome to Anjuli Automobiles Pvt. Ltd.</h1>
+                                    <p className='text-center fs-4'>
+                                        Quality is Remembered long,<br />
+                                        After the price is Forgotten !!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
