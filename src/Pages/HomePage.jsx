@@ -6,12 +6,12 @@ import TopHeader from '../components/topHeader/TopHeader';
 
 const HomePage = () => {
     return (
-        <>
+        <div className='layout'>
             <TopHeader />
             <MainHeader />
             <HeroArea />
             <FeaturedItems />
-        </>
+        </div>
     );
 };
 

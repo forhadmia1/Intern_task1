@@ -1,6 +1,9 @@
 #navbar {
   background-color: rgb(141, 0, 0);
 }
+.right-side > ul > li {
+  font-size: 25px;
+}
 
 #navbar > .left-side {
   flex-basis: 20%;
