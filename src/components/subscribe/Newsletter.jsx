@@ -1,5 +1,4 @@
 import React from 'react';
-import banner from '../../assets/images/bikes/mailchimp-bg-min.jpg'
 import './newsletter.css'
 
 const Newsletter = () => {

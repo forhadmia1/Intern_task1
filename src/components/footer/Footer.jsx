@@ -63,7 +63,7 @@ const Footer = () => {
             </section>
             <div class="text-center p-4" >
                 &copy; 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Anjuli Automobile</a>
+                <Link class="text-reset fw-bold text-decoration-none" to="https://mdbootstrap.com/"> Anjuli Automobile</Link>
             </div>
         </footer>
     );
