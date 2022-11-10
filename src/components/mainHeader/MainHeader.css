@@ -8,7 +8,8 @@
   z-index: 11;
   padding-top: 17px;
 }
-.dropdown-menubar > ul > li > a {
+
+.dropdown-menubar>ul>li>a {
   padding: 5px 20px;
 }
 
@@ -16,17 +17,21 @@
   right: -12px;
   transition: 0.3s;
 }
+
 .close {
   right: -500px;
   transition: 0.5s;
   display: none;
 }
+
 .d-link:hover {
   background-color: #242b2e63;
 }
+
 .link {
   position: relative;
 }
+
 .link::after {
   content: "";
   width: 0;
@@ -38,8 +43,9 @@
 }
 
 .link:hover {
-  color: #8d0000;
+  color: #8d0000 !important;
 }
+
 .link:hover::after {
   width: 100%;
   transition: 0.5s;
