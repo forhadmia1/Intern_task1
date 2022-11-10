@@ -1,0 +1,44 @@
+#service {
+    background-image: url('../../assets/images/Luminary.svg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-container>div {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 
+
+@media only screen and (min-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */

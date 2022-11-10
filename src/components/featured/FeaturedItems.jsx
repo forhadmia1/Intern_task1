@@ -15,7 +15,7 @@ const FeaturedItems = () => {
                 <h1 className='text-center text-white fw-bold'>Motorcycles</h1>
             </div>
             <Container className='mt-5 px-3'>
-                <Row xs={1} md={3} className='gap-4 gap-md-0'>
+                <Row xs={1} md={3} className='gap-4 gap-md-0 py-5'>
                     <Col>
                         <Card className='card-item'>
                             <Card.Img variant="top" src={bike1} />

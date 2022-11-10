@@ -1,0 +1,5 @@
+.s-link:hover {
+    transform: scale(130%);
+    transition: 0.5s;
+    color: #E63619;
+}

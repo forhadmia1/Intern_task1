@@ -1,0 +1,43 @@
+.path-container {
+    clip-path: polygon(21% 0, 100% 20%, 100% 100%, 0 100%, 0 26%);
+    background-image: url('../../assets/images/bikes/mailchimp-bg-min.jpg');
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info>p {
+    color: #E63619;
+    font-weight: bold;
+}
+
+.info>h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.form-input>button {
+    background-color: #E63619;
+    color: white;
+    font-weight: 600;
+}
+
+.form-input>button:hover {
+    background-color: #a12411;
+}
+
+
+@media only screen and (max-width:600px) {
+    .path-container {
+        height: 400px;
+    }
+}
