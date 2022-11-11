@@ -2,6 +2,8 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './ourmission.css'
 import { FaQuoteRight } from 'react-icons/fa'
+import { HiLightBulb } from 'react-icons/hi'
+import { SiGooglechat } from 'react-icons/si'
 import { TbSteeringWheel } from 'react-icons/tb'
 
 const OurMission = () => {
@@ -38,13 +40,13 @@ const OurMission = () => {
                                     <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
-                                    <TbSteeringWheel />
+                                    <HiLightBulb />
                                     <h5 className='fw-bold m-0'>Buy & Sell Online <br />
                                         Safely Securely</h5>
                                     <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
-                                    <TbSteeringWheel />
+                                    <SiGooglechat />
                                     <h5 className='fw-bold m-0'>Buy & Sell Online <br />
                                         Safely Securely</h5>
                                     <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>

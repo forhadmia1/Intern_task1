@@ -1,6 +1,7 @@
 import React from 'react';
 import FeaturedItems from '../components/featured/FeaturedItems';
 import Footer from '../components/footer/Footer';
+import Gallery from '../components/gallery/Gallery';
 import HeroArea from '../components/heroArea/HeroArea';
 import MainHeader from '../components/mainHeader/MainHeader';
 import OurMission from '../components/ourMission/OurMission';
@@ -19,6 +20,7 @@ const HomePage = () => {
             <FeaturedItems />
             <Services />
             <OurMission />
+            <Gallery />
             <Newsletter />
             <Footer />
         </div>
