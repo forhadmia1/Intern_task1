@@ -1,0 +1,57 @@
+.mission-container {
+    clip-path: polygon(100% 0, 100% 77%, 77% 100%, 0 83%, 0 0);
+    background-image: url('../../assets/images/home-page-bg-2-min.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+.mission-container::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.left-side {
+    z-index: 999;
+}
+
+.left-side>p:first-child {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.left-side>p:last-child {
+    color: darkgrey;
+}
+
+.left-side>h1 {
+    font-weight: bold;
+}
+
+.right-side {
+    z-index: 999;
+    color: white;
+}
+
+.qoute {
+    border-right: 3px solid #ff0000;
+}
+
+.text-color {
+    color: darkgrey;
+}
+
+.mission-card>h5 {
+    flex-basis: 60%;
+}
+
+.mission-card>svg {
+    font-size: 100px;
+}

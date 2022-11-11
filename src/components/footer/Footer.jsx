@@ -4,6 +4,7 @@ import { BsFacebook } from 'react-icons/bs'
 import { IoIosPin } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { ImPhone } from "react-icons/im";
+import { FaFax } from "react-icons/fa";
 import { AiFillYoutube, AiOutlineGoogle } from 'react-icons/ai'
 import './footer.css'
 
@@ -56,7 +57,7 @@ const Footer = () => {
                                 info@example.com
                             </p>
                             <p><ImPhone className='me-3 fs-5' />+ 01 234 567 88</p>
-                            <p><ImPhone className='me-3 fs-5' /> + 01 234 567 89</p>
+                            <p><FaFax className='me-3 fs-5' /> + 01 234 567 89</p>
                         </div>
                     </div>
                 </div>
