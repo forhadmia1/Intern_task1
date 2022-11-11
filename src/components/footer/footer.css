@@ -3,3 +3,11 @@
     transition: 0.5s;
     color: #E63619;
 }
+
+.footer-link {
+    color: #E63619;
+}
+
+.footer-link:hover {
+    color: #942210;
+}

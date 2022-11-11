@@ -29,7 +29,7 @@ const OurMission = () => {
                                 </div>
                                 <div className='px-3'>
                                     <h4 className='fw-bold'>Our Mission Statement</h4>
-                                    <p className='fw-semibold text-color '>Faucibus gravida pulvinar mattis risus uisque sagit ipsum tempor incididunt laboret dolor sed magna aliqua orem adipisicing elit do eiusmod tempor incididunt laboris.</p>
+                                    <p className='fw-semibold mission-text-color'>Faucibus gravida pulvinar mattis risus uisque sagit ipsum tempor incididunt laboret dolor sed magna aliqua orem adipisicing elit do eiusmod tempor incididunt laboris.</p>
                                 </div>
                             </div>
                             <div className='d-flex flex-column gap-3 mt-3'>
@@ -37,19 +37,19 @@ const OurMission = () => {
                                     <TbSteeringWheel />
                                     <h5 className='fw-bold m-0'>Buy & Sell Online <br />
                                         Safely Securely</h5>
-                                    <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
+                                    <p className='mission-text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
                                     <HiLightBulb />
                                     <h5 className='fw-bold m-0'>Buy & Sell Online <br />
                                         Safely Securely</h5>
-                                    <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
+                                    <p className='mission-text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
                                     <SiGooglechat />
                                     <h5 className='fw-bold m-0'>Buy & Sell Online <br />
                                         Safely Securely</h5>
-                                    <p className='text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
+                                    <p className='mission-text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                             </div>
                         </Col>

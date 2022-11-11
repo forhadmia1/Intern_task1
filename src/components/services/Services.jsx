@@ -1,77 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { FaHandPointer } from 'react-icons/fa'
 import './Services.css'
+import svg from '../../assets/images/bikes/logobike.svg'
+import ServiceCarousel from './ServiceCarousel';
 
 const Services = () => {
     return (
         <section id='service'>
-            <div className='pt-3 pb-2 featured-title'>
-                <h1 className='text-center text-white fw-bold'>Services</h1>
-            </div>
             <Container className='py-5'>
-                <div className='card-container'>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
+                <div className='pb-5'>
+                    <div className='d-flex justify-content-center mb-2'>
+                        <img src={svg} alt="" />
                     </div>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
-                    </div>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
-                    </div>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
-                    </div>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
-                    </div>
-                    <div className='shadow px-3 p-3'>
-                        <div className='d-flex align-items-center gap-2'>
-                            <FaHandPointer style={{ fontSize: '30px' }} />
-                            <h2 className='m-0'>ONLINE BOOKING</h2>
-                        </div>
-                        <p className='card-text'>
-                            You can book your bike online with minimum amount of Rs 10,000/-
-                            Get payment confirmation invoice on your E-mail.
-                        </p>
-                    </div>
+                    <p className='text-center text-color fw-bold'>TAKING RIDES TO A NEWER LEVEL</p>
+                    <h1 className='text-center fw-bold'>OUR SERVICES</h1>
+                    <p className='text-center'>Get our premium services at your door point.</p>
                 </div>
+                <ServiceCarousel />
             </Container>
         </section>
     );

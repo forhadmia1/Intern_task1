@@ -1,7 +1,46 @@
-#gallery {
-    height: 500px;
-}
+#gallery {}
 
 .text-color {
     color: #E63619 !important;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 3px;
+}
+
+.card-btn {
+    border: 2px solid #E63619;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+.card-btn2 {
+    border: 2px solid #E63619;
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+}
+
+.card-btn2:hover {
+    background-color: #E63619;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
 }

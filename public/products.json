@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "title":"Hunter 350 2022",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/hunter.jpg"
+    },
+    {
+        "id":2,
+        "title":"SCRAM 411 2022",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/s2.jpg"
+    },
+    {
+        "id":3,
+        "title":"METEOR 350",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/m2.jpg"
+    },
+    {
+        "id":4,
+        "title":"INTERCEPTOR",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/i.jpeg"
+    },
+    {
+        "id":5,
+        "title":"HIMALAYAN",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/h.jpeg"
+    },
+    {
+        "id":6,
+        "title":"THUNDERBIRD X 500",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/t.jpeg"
+    },
+    {
+        "id":7,
+        "title":"CLASSIC 350 SIGNALS",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/cs.jpeg"
+    },
+    {
+        "id":8,
+        "title":"CLASSIC 350 GUNMETAL",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/cg.jpeg"
+    },
+    {
+        "id":9,
+        "title":"CONTINENTAL GT",
+        "subtitle":"ROYAL ENFIELD",
+        "image":"https://www.anjuliroyalenfield.com/gt.jpeg"
+    }
+]
