@@ -10,7 +10,7 @@ import bike6 from '../../assets/images/bikes/bull7.jpg'
 
 const FeaturedItems = () => {
     return (
-        <div className='bg-dark pb-5'>
+        <section id='gallery' className='bg-dark pb-5'>
             <div className='pt-3 pb-2 featured-title'>
                 <h1 className='text-center text-white fw-bold'>Motorcycles</h1>
             </div>
@@ -42,7 +42,7 @@ const FeaturedItems = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </section>
     );
 };
 

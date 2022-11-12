@@ -8,7 +8,7 @@ import { TbSteeringWheel } from 'react-icons/tb'
 
 const OurMission = () => {
     return (
-        <div id='mission'>
+        <section id='mission'>
             <div className='mission-container py-5'>
                 <Container className='py-5'>
                     <Row md={1} lg={2} className='pb-5'>
@@ -56,7 +56,7 @@ const OurMission = () => {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </section>
     );
 };
 

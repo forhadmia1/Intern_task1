@@ -14,7 +14,7 @@ const Gallery = () => {
     }, [])
 
     return (
-        <section id='gallery' className='py-5'>
+        <section id='products' className='py-5'>
             <div className='container py-5'>
                 <div className='d-flex justify-content-center mb-2'>
                     <img src={svg} alt="" />

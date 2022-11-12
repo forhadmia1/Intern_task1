@@ -7,26 +7,52 @@ import { IoMdClose } from "react-icons/io";
 
 const MainHeader = () => {
     const [isOpen, setIsOpen] = useState(false)
+
+    const goTop = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        })
+    }
+
+    const handleScroll = e => {
+        e.preventDefault()
+        const hash = e.target.hash
+        const el = document.querySelector(hash)
+        const offsetTop = el.offsetTop
+        if (typeof window !== `undefined`) {
+            window.scrollTo({
+                top: offsetTop,
+                left: 0,
+                behavior: "smooth",
+            })
+        }
+    }
     return (
         <nav className="container-fluid d-flex align-items-center justify-content-between bg-white">
-            <Link class="navbar-brand" href="#">
+            <Link class="navbar-brand" onClick={goTop}>
                 <img className='logo' src={logo} alt="" />
             </Link>
             <ul class="d-md-flex gap-4 list-unstyled m-0 fw-semibold d-none">
                 <li class="nav-item">
-                    <Link class="nav-link link" aria-current="page" >Home</Link>
+                    <Link class="nav-link link" onClick={goTop}>Home</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link link" >Products</Link>
+                    <Link class="nav-link link" onClick={handleScroll} to="#gallery">Gallery</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link link" >Gallery</Link>
+                    <Link class="nav-link link" onClick={handleScroll} to="#service">Service</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link link">Service</Link>
+                    <Link class="nav-link link" onClick={handleScroll}
+                        to="#mission">About</Link>
                 </li>
                 <li class="nav-item">
-                    <Link class="nav-link link">Contact</Link>
+                    <Link class="nav-link link" onClick={handleScroll} to="#products">Products</Link>
+                </li>
+                <li class="nav-item">
+                    <Link class="nav-link link" onClick={handleScroll} to="#contact">Contact</Link>
                 </li>
             </ul>
             <div className='d-block d-md-none position-relative'>
@@ -36,15 +62,25 @@ const MainHeader = () => {
                 }
 
                 <div className={`position-absolute top-100 bg-white dropdown-menubar ${isOpen ? 'open' : 'close'}`}>
-                    <ul className='list-unstyled m-0 fw-semibold fs-3 text-dark'>
-                        <li>
-                            <Link className='nav-link d-link' to={''}>Home</Link>
+                    <ul className='list-unstyled m-0 fw-semibold fs-3 text-dark' onClick={() => setIsOpen(false)}>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={goTop}>Home</Link>
                         </li>
-                        <li>
-                            <Link className='nav-link d-link' to={''}>Home</Link>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={handleScroll} to="#gallery">Gallery</Link>
                         </li>
-                        <li>
-                            <Link className='nav-link d-link' to={''}>Home</Link>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={handleScroll} to="#service">Service</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={handleScroll}
+                                to="#mission">About</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={handleScroll} to="#products">Products</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link d-link" onClick={handleScroll} to="#contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

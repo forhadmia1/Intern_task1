@@ -3,7 +3,7 @@ import './newsletter.css'
 
 const Newsletter = () => {
     return (
-        <div>
+        <section id='contact'>
             <div className='path-container'>
                 <div className='form-container container row row-md'>
                     <div className='info col-md-6'>
@@ -18,7 +18,7 @@ const Newsletter = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
