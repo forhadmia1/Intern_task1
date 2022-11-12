@@ -9,6 +9,27 @@ import { AiFillYoutube, AiOutlineGoogle } from 'react-icons/ai'
 import './footer.css'
 
 const Footer = () => {
+    const goTop = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        })
+    }
+
+    const handleScroll = e => {
+        e.preventDefault()
+        const hash = e.target.hash
+        const el = document.querySelector(hash)
+        const offsetTop = el.offsetTop
+        if (typeof window !== `undefined`) {
+            window.scrollTo({
+                top: offsetTop,
+                left: 0,
+                behavior: "smooth",
+            })
+        }
+    }
     return (
         <footer class="text-center text-lg-start bg-dark text-white">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -37,16 +58,22 @@ const Footer = () => {
                                 Useful links
                             </h6>
                             <p>
-                                <Link to='' class="text-reset">Home</Link>
+                                <Link class="text-reset" onClick={goTop}>Home</Link>
                             </p>
                             <p>
-                                <Link to='' class="text-reset">Products</Link>
+                                <Link class="text-reset" onClick={handleScroll} to="#gallery">Gallery</Link>
                             </p>
                             <p>
-                                <Link to='' class="text-reset">Service</Link>
+                                <Link class="text-reset" onClick={handleScroll} to="#service">Service</Link>
                             </p>
                             <p>
-                                <Link to='' class="text-reset">contact</Link>
+                                <Link class="text-reset" onClick={handleScroll} to="#mission">About</Link>
+                            </p>
+                            <p>
+                                <Link class="text-reset" onClick={handleScroll} to="#products">Products</Link>
+                            </p>
+                            <p>
+                                <Link class="text-reset" onClick={handleScroll} to="#contact">Contact</Link>
                             </p>
                         </div>
                         <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
