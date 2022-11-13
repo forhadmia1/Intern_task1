@@ -11,7 +11,7 @@ const OurMission = () => {
         <section id='mission'>
             <div className='mission-container py-5'>
                 <Container className='py-5'>
-                    <Row md={1} lg={2} className='pb-5'>
+                    <Row xs={1} md={1} lg={2} className='pb-5'>
                         <Col>
                             <div className='text-white left-side'>
                                 <p className=''>TAKING RIDES TO A NEWER LEVEL</p>
@@ -41,14 +41,14 @@ const OurMission = () => {
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
                                     <HiLightBulb />
-                                    <h5 className='fw-bold m-0'>Buy & Sell Online <br />
-                                        Safely Securely</h5>
+                                    <h5 className='fw-bold m-0'>Reviews & Advice <br />
+                                        From Experts</h5>
                                     <p className='mission-text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                                 <div className='d-flex gap-2 mission-card align-items-md-center'>
                                     <SiGooglechat />
-                                    <h5 className='fw-bold m-0'>Buy & Sell Online <br />
-                                        Safely Securely</h5>
+                                    <h5 className='fw-bold m-0'>Financing Facility <br />
+                                        for Buyers</h5>
                                     <p className='mission-text-color m-0'>Ipsum vestibulum fringil holupta elit voltars semper incididunt dolor ipsum.</p>
                                 </div>
                             </div>

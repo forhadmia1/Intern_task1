@@ -24,6 +24,10 @@
   display: none;
 }
 
+.d-link {
+  font-size: 16px !important;
+}
+
 .d-link:hover {
   background-color: #242b2e63;
 }

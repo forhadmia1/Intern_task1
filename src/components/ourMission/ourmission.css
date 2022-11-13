@@ -55,3 +55,17 @@
 .mission-card>svg {
     font-size: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .mission-card>svg {
+        font-size: 60px;
+    }
+
+    .mission-text-color {
+        flex-basis: 70%;
+    }
+
+    .mission-card>h5 {
+        font-size: 18px;
+    }
+}
