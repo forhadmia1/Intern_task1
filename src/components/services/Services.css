@@ -1,5 +1,6 @@
 #service {
-    background-color: #EEEEEE;
+    background-color: #ebe7e7;
+    clip-path: polygon(23% 0, 100% 13%, 100% 100%, 0 100%, 0 16%);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;

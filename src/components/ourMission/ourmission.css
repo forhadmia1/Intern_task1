@@ -1,5 +1,5 @@
 .mission-container {
-    clip-path: polygon(100% 0, 100% 77%, 77% 100%, 0 83%, 0 0);
+    clip-path: polygon(100% 0, 100% 88%, 75% 100%, 0 90%, 0 0);
     background-image: url('../../assets/images/home-page-bg-2-min.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
