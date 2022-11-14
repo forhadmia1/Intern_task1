@@ -31,9 +31,9 @@ const Footer = () => {
         }
     }
     return (
-        <footer class="text-center text-lg-start bg-dark text-white">
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div class="me-5 d-none d-lg-block">
+        <footer className="text-center text-lg-start bg-dark text-white">
+            <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div className="me-5 d-none d-lg-block">
                     <span>Get connected with Anjuli Automobiles:</span>
                 </div>
                 <div className='d-flex gap-3 fs-5 '>
@@ -42,42 +42,42 @@ const Footer = () => {
                     <Link className='text-white ' to={''}><AiOutlineGoogle className='s-link' /></Link>
                 </div>
             </section>
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <div class="row mt-3">
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4">
+            <section className="">
+                <div className="container text-center text-md-start mt-5">
+                    <div className="row mt-3">
+                        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 className="text-uppercase fw-bold mb-4">
                                 Anjuli Automobile
                             </h6>
                             <p>
                                 All premium products and services are available here.
                             </p>
                         </div>
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4">
+                        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 className="text-uppercase fw-bold mb-4">
                                 Useful links
                             </h6>
                             <p>
-                                <Link class="text-reset" onClick={goTop}>Home</Link>
+                                <Link className="text-reset" onClick={goTop}>Home</Link>
                             </p>
                             <p>
-                                <Link class="text-reset" onClick={handleScroll} to="#gallery">Gallery</Link>
+                                <Link className="text-reset" onClick={handleScroll} to="#gallery">Gallery</Link>
                             </p>
                             <p>
-                                <Link class="text-reset" onClick={handleScroll} to="#service">Service</Link>
+                                <Link className="text-reset" onClick={handleScroll} to="#service">Service</Link>
                             </p>
                             <p>
-                                <Link class="text-reset" onClick={handleScroll} to="#mission">About</Link>
+                                <Link className="text-reset" onClick={handleScroll} to="#mission">About</Link>
                             </p>
                             <p>
-                                <Link class="text-reset" onClick={handleScroll} to="#products">Products</Link>
+                                <Link className="text-reset" onClick={handleScroll} to="#products">Products</Link>
                             </p>
                             <p>
-                                <Link class="text-reset" onClick={handleScroll} to="#contact">Contact</Link>
+                                <Link className="text-reset" onClick={handleScroll} to="#contact">Contact</Link>
                             </p>
                         </div>
-                        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <div className="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                             <p><IoIosPin className='me-3 fs-5' /> New York, NY 10012, US</p>
                             <p>
                                 <MdEmail className='me-3 fs-5' />
@@ -89,9 +89,9 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
-            <div class="text-center p-4" >
+            <div className="text-center p-4" >
                 &copy; 2021 Copyright:
-                <Link class="fw-bold text-decoration-none footer-link" to="https://mdbootstrap.com/"> Anjuli Automobile</Link>
+                <Link className="fw-bold text-decoration-none footer-link" to="https://mdbootstrap.com/"> Anjuli Automobile</Link>
             </div>
         </footer>
     );
